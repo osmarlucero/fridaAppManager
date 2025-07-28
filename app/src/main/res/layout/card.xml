@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:backgroundTint="#03ad92"
+    android:background="#ffffff">
+    <!-- Color de fondo blanco -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa: 1"
+        android:textSize="18sp"
+        android:id="@+id/tvMesa"
+        android:textColor="#d4eff0"
+        /> <!-- Texto en color negro -->
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estatus: Libre"
+        android:textSize="18sp"
+        android:textColor="#d4eff0"
+        android:layout_marginTop="8dp"
+        /> <!-- Texto en color negro con margen superior -->
+
+</LinearLayout>

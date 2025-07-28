@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_propina"
+        android:title="Sacar Propina"
+        />
+    <item
+        android:id="@+id/action_repaint"
+        android:title="Reimprimir"
+        />
+    <item
+        android:id="@+id/action_crear_pedido"
+        android:title="Cambiar Mesa"
+        />
+
+    <item
+        android:id="@+id/action_cajas"
+        android:title="Abri Cajas"
+        />
+    <item
+        android:id="@+id/action_generar_x"
+        android:title="Generar X"
+        />
+    <item
+        android:id="@+id/action_generar_z"
+        android:title="Generar Z"
+        />
+    <item
+        android:id="@+id/action_cierre_caja"
+        android:title="Cierre de Caja"
+        />
+    <item
+        android:id="@+id/action_llevar"
+        android:title="Generar Pedido"
+        />
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760210327274",
+    "project_id": "frida-a5c24",
+    "storage_bucket": "frida-a5c24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760210327274:android:5d1332fcd1196dde09b993",
+        "android_client_info": {
+          "package_name": "com.example.fridaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5zadMe_fjFWmbOBV1aA8rZeAciEEwT50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

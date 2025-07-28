@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Linear layout horizontal para el Spinner y el EditText de cantidad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <!-- Spinner para seleccionar el tipo de producto -->
+        <Spinner
+            android:id="@+id/spinnerTipoProducto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- EditText para la cantidad -->
+        <EditText
+            android:id="@+id/etCantidad"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:hint="Cantidad"
+            android:layout_marginStart="4dp"/>
+    </LinearLayout>
+
+    <!-- EditText para anotaciones -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anotaciones:"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etAnotaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce anotaciones..."
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:id="@+id/mainSub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".DetalleMesa">
+
+        <!-- Primer LinearLayout con los botones -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Botón "ADD FOOD" -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD FOOD"
+                android:id="@+id/btnAdd"
+                android:textColor="#ffffff"
+                android:backgroundTint="#ff0000"
+                android:layout_gravity="center_vertical"/>
+
+            <!-- Espacio -->
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content"/>
+
+            <!-- Botón "SUBIR" -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUBIR"
+                android:id="@+id/btnSubir"
+                android:textColor="#ffffff"
+                android:backgroundTint="#ff0000"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <!-- Segundo LinearLayout -->
+        <LinearLayout
+            android:id="@+id/mainButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Agrega aquí los elementos que deseas dentro del segundo LinearLayout -->
+        </LinearLayout>
+        <!-- Segundo LinearLayout -->
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Agrega aquí los elementos que deseas dentro del segundo LinearLayout -->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
